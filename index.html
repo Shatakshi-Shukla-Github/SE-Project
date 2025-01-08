@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Traditional Indian Knowledge System</title>
+    <link rel="stylesheet" href="figma.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Traditional Indian Knowledge System</h1>
+            </div>
+            <nav>
+                <ul id="nav-list">
+                    <li><a href="#" onclick="showHome()">Home</a></li>
+                    <li><a href="#" onclick="showAbout()">About</a></li>
+                    <li><a href="#" onclick="showSignUp()">Sign Up</a></li>
+                    <li><a href="#" onclick="showContact()">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">&#9776;</div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container" id="content">
+
+        <!-- Home Section with Vedic Book Background -->
+        <section id="home-section" style="display: block;">
+            <div class="background-image">
+                <h2>Vedic Knowledge</h2>
+                <p>The Vedas (Sanskrit: वेदः, romanized: Vēdaḥ, lit.'knowledge'),
+                    sometimes collectively called the Veda, are a large body of religious texts originating in ancient
+                    India. Composed in Vedic Sanskrit, the texts constitute the oldest layer of Sanskrit literature and
+                    the oldest scriptures of Hinduism. There are four Vedas: the Rigveda, the Yajurveda, the Samaveda
+                    and the Atharvaveda.Each Veda
+                    has four subdivisions the Samhitas (mantras and benedictions), the Brahmanas (commentaries on and
+                    explanation of rituals, ceremonies and sacrifices Yajñas), the Aranyakas (text on rituals,
+                    ceremonies, sacrifices and symbolic-sacrifices), and the Upanishads (texts discussing meditation,
+                    philosophy and spiritual knowledge). Some scholars add a fifth category the Upāsanās
+                    (worship). The Samhitas and Brahmanas describe daily rituals and are generally meant for the
+                    Brahmacharya and Gr̥hastha stages of the Chaturashrama system, while the Aranyakas and Upanishads
+                    are meant for the Vānaprastha and Sannyasa stages respectively.</p>
+            </div>
+        </section>
+
+        <!-- Sign Up Section -->
+        <section id="signup-section" style="display: none;">
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+
+        <!-- About Section -->
+        <section id="about-section" style="display: none;">
+            <h2>About Us</h2>
+            <p>Our aim is to share and preserve the rich knowledge of ancient Indian traditions, philosophies, and
+                sciences, making them accessible to all.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact-section" style="display: none;">
+            <h2>Contact</h2>
+            <p>If you have any questions, feel free to reach us at:</p>
+            <p><strong>Email:</strong> info@traditionalknowledge.com</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Traditional Indian Knowledge System. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
